@@ -48,7 +48,7 @@ const Navbar = () => {
                         </li>
                     )
                 }
-                <button className='flex text-white tracking-wide bg-gradient-to-r from-[#79018C] to-[#4C0070] hover:bg-gradient-to-l duration-500 ease-in rounded px-2 py-2 md:mx-10 my-2 md:my-0'>
+                <button className='flex text-white tracking-wide bg-gradient-to-r from-teal-700 to-teal-900 hover:bg-gradient-to-l duration-500 ease-in rounded px-2 py-2 md:mx-10 my-2 md:my-0'>
                     <div className='pt-1 px-2 items-center'><BsWallet /></div>
                     <span className='px-2'>Connect Wallet</span>
                 </button>

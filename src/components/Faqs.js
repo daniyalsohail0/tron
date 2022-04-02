@@ -4,8 +4,8 @@ import { Accordion } from 'react-bootstrap'
 const Faqs = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <h1 className='text-white text-5xl tracking-widest m-2 p-2'>FAQs</h1>
-      <div className='w-1/2 m-4 p-4'>
+      <h1 className='text-white text-5xl tracking-widest p-4'>FAQs</h1>
+      <div className='md:w-3/4 w-full p-4'>
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
             <Accordion.Header>When is minting date?</Accordion.Header>

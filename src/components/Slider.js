@@ -4,8 +4,8 @@ import { Carousel } from 'react-bootstrap'
 const Slider = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-        <h1 className='text-white text-5xl text-mono tracking-widest'>Gallery</h1>
-        <div className='w-3/4 rounded-lg m-4'>
+        <h1 className='text-teal-400 text-5xl text-mono tracking-widest p-4'>Gallery</h1>
+        <div className='w-7/8 md:w-3/4 rounded-lg p-4'>
         <Carousel>
             <Carousel.Item interval={1000}>
                 <img

@@ -1,11 +1,12 @@
 import './App.css';
-import Countdown from './components/Countdown';
 import Faqs from './components/Faqs';
 import Features from './components/Features';
-import InfoCards from './components/InfoCards';
 import Navbar from './components/Navbar';
+import Partners from './components/Partners';
 import Slider from './components/Slider';
-import Socials from './components/Socials';
+import SocialFooter from './components/SocialFooter';
+import Team from './components/Team';
+import VideoSec from './components/VideoSec';
 import Welcome from './components/Welcome';
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Welcome />
-      <Socials />
-      <Slider />
-      <InfoCards />
-      <Countdown />
+      <VideoSec />
       <Features />
+      <Slider />
       <Faqs />
+      <Team />
+      <Partners />
+      <SocialFooter />
     </div>
   );
 }
