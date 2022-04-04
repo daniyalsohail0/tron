@@ -3,8 +3,8 @@ import { Accordion } from 'react-bootstrap'
 
 const Faqs = () => {
   return (
-    <div className='flex flex-col justify-center items-center'>
-      <h1 className='text-white text-5xl tracking-widest p-4'>FAQs</h1>
+    <div className='flex flex-col justify-center items-center pb-8 pt-8'>
+      <h1 className='md:text-8xl text-6xl text-[#892CDC] text-center p-4'>FAQs</h1>
       <div className='md:w-3/4 w-full p-4'>
         <Accordion defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">

@@ -1,9 +1,11 @@
 import './App.css';
+import Countdown from './components/Countdown';
 import Faqs from './components/Faqs';
 import Features from './components/Features';
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Partners from './components/Partners';
-import Slider from './components/Slider';
+import SecReady from './components/SecReady';
 import SocialFooter from './components/SocialFooter';
 import Team from './components/Team';
 import VideoSec from './components/VideoSec';
@@ -14,13 +16,15 @@ function App() {
     <div className="App">
       <Navbar />
       <Welcome />
-      <VideoSec />
+      <SecReady />
+      <Countdown />
       <Features />
-      <Slider />
+      <SocialFooter />
+      <VideoSec />
       <Faqs />
       <Team />
       <Partners />
-      <SocialFooter />
+      <Footer />
     </div>
   );
 }
